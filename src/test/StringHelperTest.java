@@ -15,4 +15,9 @@ public class StringHelperTest {
 	public void testStrWith2CharsIsReversed() {
 		assertEquals("BA", stringhelper.swapLast2Chars("AB"));
 	}
+	// Commit 2
+	@Test
+	public void testStrWith4CharsIsReversed() {
+		assertEquals("ABDC", stringhelper.swapLast2Chars("ABCD"));
+	}
 }
